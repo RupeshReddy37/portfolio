@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { motion, HTMLMotionProps } from 'framer-motion';
+import { cn } from '../../utils/cn';
 
 interface FadeInProps extends HTMLMotionProps<'div'> {
   delay?: number;
@@ -25,7 +26,7 @@ export function FadeIn({
 
   return (
     <motion.div
-      initial={{ opacity: 0, ...directions[direction] }}
+      initial={{ opacity: 1, x: 0, y: 0 }}
       whileInView={{ opacity: 1, x: 0, y: 0 }}
       viewport={{ once: true, margin: '-50px' }}
       transition={{
@@ -33,7 +34,7 @@ export function FadeIn({
         delay,
         ease: [0.21, 0.47, 0.32, 0.98], // Tailwind's default ease-out cubic-bezier
       }}
-      className={fullWidth ? 'w-full' : className}
+      className={cn(fullWidth && 'w-full', className)}
       {...props}
     >
       {children}

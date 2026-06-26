@@ -12,7 +12,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="projects/rag-system" element={<ProjectRAG />} />
         <Route path="projects/deficiency-ai" element={<ProjectDeficiency />} />
-        <Route path="/projects/workforce-intelligence" element={<ProjectWorkforceIntelligence />}
+        <Route path="projects/workforce-intelligence" element={<ProjectWorkforceIntelligence />}
         />
       </Route>
     </Routes>

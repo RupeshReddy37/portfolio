@@ -8,9 +8,10 @@ interface SectionHeadingProps extends React.HTMLAttributes<HTMLHeadingElement> {
 
 export function SectionHeading({ title, subtitle, className, ...props }: SectionHeadingProps) {
   return (
-    <div className={cn('mb-12 flex flex-col items-start gap-2', className)} {...props}>
+    <div className={cn('mb-10 flex max-w-2xl flex-col items-start gap-3', className)} {...props}>
+      <div className="h-1 w-10 rounded-full bg-cyan-300" />
       <h2 className="text-3xl font-bold tracking-tight text-zinc-50 sm:text-4xl">{title}</h2>
-      {subtitle && <p className="text-lg text-zinc-400">{subtitle}</p>}
+      {subtitle && <p className="text-base leading-relaxed text-zinc-400 sm:text-lg">{subtitle}</p>}
     </div>
   );
 }

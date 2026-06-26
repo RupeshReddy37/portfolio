@@ -4,3 +4,53 @@
   --font-sans: 'Inter', 'Geist', ui-sans-serif, system-ui, sans-serif;
   --color-primary: #0070f3;
 }
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background: #050608;
+  }
+
+  body {
+    min-width: 320px;
+    overflow-x: hidden;
+    background:
+      linear-gradient(180deg, rgba(10, 14, 18, 0.92) 0%, #050608 42rem),
+      radial-gradient(circle at 18% 12%, rgba(14, 165, 233, 0.14), transparent 28rem),
+      radial-gradient(circle at 88% 18%, rgba(16, 185, 129, 0.1), transparent 24rem),
+      #050608;
+  }
+
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgba(125, 211, 252, 0.9);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background: rgba(125, 211, 252, 0.26);
+    color: #f8fafc;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}

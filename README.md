@@ -23,7 +23,7 @@ A world-class, premium personal portfolio website built to position Lomada Rupes
 ## Getting Started
 
 1. **Install Dependencies:**
-   ``bash
+   ```bash
    npm install
    ```
 

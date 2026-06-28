@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rupeshreddy.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://rupeshreddy.vercel.app/projects/rag-system</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rupeshreddy.vercel.app/projects/deficiency-ai</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://rupeshreddy.vercel.app/projects/workforce-intelligence</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>

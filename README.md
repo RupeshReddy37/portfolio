@@ -52,7 +52,7 @@ This project is optimized for deployment on [Vercel](https://vercel.com). A `ver
 
 ## Resume Updates
 
-The portfolio uses `public/resume.pdf` for every resume button. To update the resume later, replace that file with a new PDF using the same filename. If you want to change the URL, update `resumeUrl` in `src/constants/profile.ts`.
+The portfolio uses `public/Rupesh_Reddy_Resume.pdf` for every resume button. To update the resume later, replace that file with a new PDF using the same filename. If you want to change the URL, update `resumeUrl` in `src/constants/profile.ts`.
 
 ## License
 

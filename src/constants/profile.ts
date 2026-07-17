@@ -6,6 +6,6 @@ export const profile = {
   linkedin: 'https://linkedin.com/in/lomada-rupesh-reddy',
   hackerRank: 'https://www.hackerrank.com/profile/rupeshreddyloma1',
   leetcode: 'https://leetcode.com/u/rupeshreddy_0/',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/Rupesh_Reddy_Resume.pdf',
   contactUrl: 'mailto:rupeshreddylomada@gmail.com?subject=Portfolio%20Contact',
 };

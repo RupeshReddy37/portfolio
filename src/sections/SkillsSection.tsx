@@ -23,7 +23,7 @@ const skillCategories = [
   },
   {
     title: 'Frontend Development',
-    skills: ['HTML', 'CSS', 'JavaScript', 'React Basics', 'JavaFX Basics', 'Responsive UI'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'React JS', 'JavaFX Basics', 'Responsive UI'],
   },
   {
     title: 'AI / ML Project Work',
@@ -31,7 +31,7 @@ const skillCategories = [
   },
   {
     title: 'Currently Learning',
-    skills: ['AWS Basics', 'CI/CD', 'Advanced System Design', 'Kubernetes', 'React'],
+    skills: ['AWS Basics', 'CI/CD', 'System Design', 'Kubernetes'],
   },
 ];
 
